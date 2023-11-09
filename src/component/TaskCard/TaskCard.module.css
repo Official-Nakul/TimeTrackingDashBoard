@@ -1,0 +1,133 @@
+* {
+  font-family: "Rubik", sans-serif !important;
+}
+.container {
+  display: grid;
+  width: 45em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1em;
+}
+
+.cardIcon {
+  height: 4em;
+  width: 4em;
+  margin: -0.5em 1em 0em 0em;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.work {
+  position: relative;
+  height: 13em;
+  width: 14em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: hsl(15, 100%, 70%);
+}
+.details {
+  position: absolute;
+  background-color: hsl(235, 46%, 20%);
+  width: inherit;
+  height: 9.55em;
+  border-radius: 15px;
+}
+
+.play {
+  position: relative;
+  height: 13em;
+  width: 14em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: hsl(195, 74%, 62%);
+}
+.study {
+  position: relative;
+  height: 13em;
+  width: 14em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: hsl(348, 100%, 68%);
+}
+.exc {
+  position: relative;
+  height: 13em;
+  width: 14em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: hsl(145, 58%, 55%);
+}
+.social {
+  position: relative;
+  height: 13em;
+  width: 14em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: hsl(264, 64%, 52%);
+}
+.selfCare {
+  position: relative;
+  height: 13em;
+  width: 14em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: hsl(43, 84%, 65%);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: inherit;
+  height: 1.5em;
+  margin-top: 1em;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10.5em;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: white;
+  flex-basis: 5em;
+  margin: 1em 2.55em 1em 0em;
+}
+.current {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 0.1em;
+}
+.prev {
+  font-size: 15px;
+  font-weight: 100;
+  color: hsl(236, 100%, 87%);
+}
+.txt {
+  margin-left: 2em;
+}
+.elp {
+  margin-right: 2em;
+}
