@@ -131,3 +131,7 @@
 .elp {
   margin-right: 2em;
 }
+.details:hover {
+  background-color: #34397b;
+  cursor: pointer;
+}
