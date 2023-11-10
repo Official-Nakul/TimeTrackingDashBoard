@@ -135,3 +135,53 @@
   background-color: #34397b;
   cursor: pointer;
 }
+@media (width<=400px) {
+  .container {
+    width: 22em;
+    margin-top: 1em;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .data {
+    flex-direction: row;
+    margin: 0%;
+  }
+  .work {
+    width: 22em;
+    height: 9em;
+  }
+  .social {
+    width: 22em;
+    height: 9em;
+  }
+  .selfCare {
+    width: 22em;
+    height: 9em;
+  }
+  .play {
+    width: 22em;
+    height: 9em;
+  }
+  .study {
+    width: 22em;
+    height: 9em;
+  }
+  .exc {
+    width: 22em;
+    height: 9em;
+  }
+  .details {
+    height: 7em;
+  }
+  .taskHrs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28em;
+    margin-top: 1em;
+    /* outline: solid 2px red; */
+    flex-basis: 18em;
+  }
+  .current {
+    font-size: 30px;
+  }
+}

@@ -12,9 +12,7 @@ function App() {
             </div>
             <div className="data">
               <p className="report">Report for</p>
-              <p className="name">
-                Jeremy <br /> Robson
-              </p>
+              <p className="name">Jeremy Robson</p>
             </div>
           </div>
           <div className="timeline">

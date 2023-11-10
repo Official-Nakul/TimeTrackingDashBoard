@@ -17,8 +17,10 @@ const TaskCard = () => {
               <img src={ellipsis} alt="" className={styles.elp} />
             </div>
             <div className={styles.data}>
-              <div className={styles.current}>32hrs</div>
-              <div className={styles.prev}>Last Week - 36hrs</div>
+              <div className={styles.taskHrs}>
+                <div className={styles.current}>32hrs</div>
+                <div className={styles.prev}>Last Week - 36hrs</div>
+              </div>
             </div>
           </div>
           <img src={work} alt="" className={styles.cardIcon} />
@@ -30,8 +32,10 @@ const TaskCard = () => {
               <img src={ellipsis} alt="" className={styles.elp} />
             </div>
             <div className={styles.data}>
-              <div className={styles.current}>10hrs</div>
-              <div className={styles.prev}>Last Week - 8hrs</div>
+              <div className={styles.taskHrs}>
+                <div className={styles.current}>10hrs</div>
+                <div className={styles.prev}>Last Week - 8hrs</div>
+              </div>
             </div>
           </div>
           <img src={play} alt="" className={styles.cardIcon} />
@@ -43,8 +47,10 @@ const TaskCard = () => {
               <img src={ellipsis} alt="" className={styles.elp} />
             </div>
             <div className={styles.data}>
-              <div className={styles.current}>4hrs</div>
-              <div className={styles.prev}>Last Week - 7hrs</div>
+              <div className={styles.taskHrs}>
+                <div className={styles.current}>4hrs</div>
+                <div className={styles.prev}>Last Week - 7hrs</div>
+              </div>
             </div>
           </div>
           <img src={study} alt="" className={styles.cardIcon} />
@@ -56,8 +62,10 @@ const TaskCard = () => {
               <img src={ellipsis} alt="" className={styles.elp} />
             </div>
             <div className={styles.data}>
-              <div className={styles.current}>4hrs</div>
-              <div className={styles.prev}>Last Week - 5hrs</div>
+              <div className={styles.taskHrs}>
+                <div className={styles.current}>4hrs</div>
+                <div className={styles.prev}>Last Week - 5hrs</div>
+              </div>
             </div>
           </div>
           <img
@@ -74,8 +82,10 @@ const TaskCard = () => {
               <img src={ellipsis} alt="" className={styles.elp} />
             </div>
             <div className={styles.data}>
-              <div className={styles.current}>5hrs</div>
-              <div className={styles.prev}>Last Week - 10hrs</div>
+              <div className={styles.taskHrs}>
+                <div className={styles.current}>5hrs</div>
+                <div className={styles.prev}>Last Week - 10hrs</div>
+              </div>
             </div>
           </div>
           <img
@@ -92,8 +102,10 @@ const TaskCard = () => {
               <img src={ellipsis} alt="" className={styles.elp} />
             </div>
             <div className={styles.data}>
-              <div className={styles.current}>2hrs</div>
-              <div className={styles.prev}>Last Week - 2hrs</div>
+              <div className={styles.taskHrs}>
+                <div className={styles.current}>2hrs</div>
+                <div className={styles.prev}>Last Week - 2hrs</div>
+              </div>
             </div>
           </div>
           <img

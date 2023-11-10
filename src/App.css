@@ -84,3 +84,25 @@ p {
 .timeline > p:active {
   color: white;
 }
+@media (width<=400px) {
+  .container {
+    flex-direction: column;
+  }
+  .details {
+    width: 22em;
+    height: 10em;
+  }
+  .userDetailsContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    font-size: 26px;
+  }
+  .timeline {
+    flex-direction: row;
+    height: 14em;
+    margin-top: 1em;
+  }
+}
